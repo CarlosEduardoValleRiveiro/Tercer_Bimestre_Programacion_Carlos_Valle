@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso de usuarios</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CSonsie+One" 
+    rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h3>Acceso de usuario</h3>
+    <form action="" id="usuario"> 
+
+        <h5>Usuario</h5>
+        <input type="text"  id="usuarios" onclick="" required>
+        <h5>Contraseña</h5>
+        <input type="password" id="clave" required>
+        <br><br>
+        <button type="submit" value="Confirmar" onclick="verificar()">verificar</button>
+
+    </form>
+    <script>
+        let control = 0;
+        let contraseña = "pass"
+
+        function verificar(){
+            let clave = document.getElementById("clave").value;
+            if (clave != contraseña){
+            alert("La contraseña es incorrecta")
+            }
+            else{
+                window.open("Proyecto_final.html")
+            }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,152 @@
+/* || General setup */
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+html, body
+{
+    margin: 0;  /*Sirve para determinar los margenes*/
+    padding: 0;
+}
+
+html
+{
+font-size: 10px; /*Sirve para poner el tamaño de la mfuente*/
+background-color: #deddc1;
+width: 1500px;
+}
+
+body
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* typography */
+
+h1,h2,h3,h5
+{
+    font-family: "Poetsen One", sans-serif; /*Sirve para declarar la fuente*/
+    font-weight: 400;
+    font-style: normal;
+    color: #2a2a2a;
+}
+
+h1
+{
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(69, 39, 21);
+    
+}
+
+h2
+{
+    font-size: 4rem;
+    text-align: center;
+}
+
+h3,h5{
+    font-size: 3.2rem;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+p,li
+{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* || Header layout */
+
+nav, article, aside, footer
+{
+    background-color: aliceblue; /*Sirve para cambiar el color del elemento*/
+    padding: 1%;
+}
+
+nav
+{
+    height: 50px;
+    background-color: #d4ba73;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+nav ul
+{
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+nav li
+{
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+nav a
+{
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+nav form
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0.2rem;
+}
+
+input {
+    font-size: 1.6rem;
+    height: 32px;
+}
+
+input[type="search"] {
+    flex: 3;
+}
+
+input[type="submit"] {
+    flex: 1;
+    margin-left: 1rem;
+    background: #333;
+    border: 0;
+    color: white;
+}
+
+/* || main layout*/
+
+main {
+    display: flex;
+}
+
+article {
+    flex: 4;
+}
+
+aside { /*Sirve para crear un apartado a lado del articulo*/
+    flex: 1;
+    margin-left: 10px;
+    background-color: #b5a272;
+}
+
+aside li {
+    padding-bottom: 10px;
+}
+
+footer {
+    margin-top: 10px;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso de usuarios</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CSonsie+One" 
+    rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h4>Acceso de usuarios</h4>
+    <form action=""> 
+
+        <h5>Usuario</h5>
+        <input type="text"  id="usuarios" onclick="">
+        <h5>Contraseña</h5>
+        <input type="password" id="clave">
+        <br><br>
+        <input type="button" value="Confirmar" onclick="verificar()">
+
+    </form>
+    <script>
+        let control = 0;
+        let contraseña = "pass"
+
+        function verificar(){
+            let clave = document.getElementById("clave").value;
+            if (clave != contraseña){
+            alert("La contraseña es incorrecta")
+            }
+            else{
+                window.open("https://obrasdearte2.000webhostapp.com/")
+            }
+        }
+    </script>
+    
+</body>
+</html>

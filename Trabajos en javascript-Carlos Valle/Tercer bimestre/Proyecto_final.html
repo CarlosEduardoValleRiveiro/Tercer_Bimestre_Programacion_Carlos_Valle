@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+        <meta charset="utf-8">
+        <title>Formularios</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CSonsie+One" 
+        rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!--Aquí está nuestro encabezado princpial que se utiliza en todas las páginas de nuestro sitio-->
+
+        <header>
+            <!--Aquí está el título de la página, en el encabezado-->
+            <h1>Formularios</h1>
+        </header>
+
+
+        <nav><!--Este es el navegador dentro de la página-->
+            <ul>
+                <li><a href="#" onclick="alert('Este boton no sirve :D')">Inicio</a></li>
+                <li><a href="#" onclick="alert('Este boton no sirve :D')">¿Como crear un formulario?</a></li>
+                <li><a href="#" onclick="alert('Este boton no sirve :D')">¿Para que usar formularios?</a></li>
+                <li><a href="#" onclick="alert('Este boton no sirve :D')">Mejores formularios</a></li>
+            </ul>
+
+            <!--Un formulario de búsqueda es otra forma no líneal común de navegar por la web-->
+            
+            <form id="botonbuscar">
+                <input type="text" name="busqueda" id="busqueda" placeholder="Búsqueda" required>
+                <button type="submit">Buscar</button>
+            </form>
+        </nav>
+
+        <!--Aquí está el contenido principal de nuestra página-->
+        <main>
+
+            <!-- Contiene un artículo-->
+            <article>
+                <h2>Tipos de formularios</h2>
+                
+                <h3>Formularios abiertos</h3>
+
+                <p>Permiten al usuario ingresar información libremente, sin restricciones previas. Se utilizan comúnmente para recopilar comentarios, sugerencias o opiniones</p>
+
+                <h3>Formularios cerrados</h3>
+                
+                <p>Tienen preguntas predeterminadas con opciones limitadas, como checkbox o selecciones desplegables. Se utilizan para recopilar información estructurada y precisa.</p>
+
+                <h3>Formularios mixtos</h3>
+
+                <p>Combina elementos de formularios abiertos y cerrados, permitiendo al usuario ingresar información tanto estructurada como libre.</p>
+
+                <h3>Formularios de oden</h3>
+
+                <p>Detallados y complejos, utilizados para realizar compras en línea o solicitar productos o servicios. Pueden incluir campos para datos de contacto, descripciones de productos, cantidades y precios.</p>
+
+
+            </article>
+
+            <!-- El contenido aparte también se puede anidar dentro del contenido principal-->
+            <aside>
+                <h2>¿Que es un formulario?</h2>
+
+                
+                <h4>
+
+                    Un formulario es un documento, físico o digital, diseñado para recopilar información estructurada de manera sistemática y estandarizada. Su objetivo es registrar datos relevantes sobre una situación o proceso, lo que permite almacenar y procesar la información de manera eficiente.
+
+                </h4>
+                
+                
+            </aside>
+        </main>
+        <!--Y aquí está nuestro pie de página principal que se utiliza en todas las páginas de nuestro sitio web.-->
+
+        <footer>
+            <p>©Copyright 2024 by Carlos. All rights reserved.</p>
+        </footer>
+
+
+        <form id="myForm"> <!--Identificamos el formulario para poder usarlo en el archivo de javascript-->
+
+            <h3>Formulario de contacto</h3>
+
+            <label for="name">Nombre:</label> <!--label sirve para crear un pequeño texto que sirve como etiqueta en un formulario-->
+            <input type="text" name="name" id="name" required><!--input sirve para que el usuario ingrese datos-->
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="num">Numero de telefono:</label>
+            <input type="num" id="num" name="num" required>
+            <br>
+            <label for="message">Mensaje:</label>
+            <textarea name="message" id="message" required></textarea><!--textarea sirve para que el usuario pueda ingresar mucho texto-->
+            <button type="submit">Enviar</button>
+    
+        </form>
+
+
+    </body>
+
+ <div class="surprised"></div>
+ <div class="ig"></div>
+ <div class="twt"></div>
+ <div class="happy"></div>
+ <div class="happy2"></div>
+
+</html>

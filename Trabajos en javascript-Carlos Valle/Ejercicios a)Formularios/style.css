@@ -1,0 +1,67 @@
+/* || General setup */
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+html, body
+{
+    margin: 0;  /*Sirve para determinar los margenes*/
+    padding: 0;
+}
+
+html
+{
+font-size: 10px; /*Sirve para poner el tamaño de la mfuente*/
+background-color: #deddc1;
+width: 1500px;
+}
+
+body
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* typography */
+
+h1,h2,h3,h4,h5
+{
+    font-family: "Poetsen One", sans-serif; /*Sirve para declarar la fuente*/
+    font-weight: 400;
+    font-style: normal;
+    color: #2a2a2a;
+}
+
+h1
+{
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(69, 39, 21);
+    
+}
+
+h2
+{
+    font-size: 4rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+
+h4{
+    font-size: 5rem;
+    text-align: center;
+}
+
+h5{
+    font-size: 4rem;
+    text-align: center;
+}
+
+p,li
+{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
